@@ -7,7 +7,7 @@ class app_config:
     MAIL_DEFAULT_SENDER='averyboy@qq.com'
     SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:qq228744592@localhost/test'
     SQLAlCHEMY_COMMIT_TEARDOWN=True
-
+    SECRET_KEY='strongpassword'
 config={
     'app':app_config
     'test':app_config
